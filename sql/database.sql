@@ -1,0 +1,12 @@
+CREATE TABLE node_mysql_ts;
+
+CREATE TABLE post(
+    id INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(200) NOT NULL,
+    description TEXT NOT NULL,
+    imageUrl TEXT,
+    createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+
+);
+
+DESCRIBE post;
