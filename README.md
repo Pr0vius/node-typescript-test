@@ -12,8 +12,8 @@ First express app in TypeScript
 
 ### endpoints
 * /api/post
-  get method - Get post list
-  post method - Create a new post
+ 1. get method - Get post list
+ 2. post method - Create a new post
 * /api/post/:id
-  get method - Get a post by id
-  delete method - Delete a post by id
+ 1. get method - Get a post by id
+ 2. delete method - Delete a post by id
