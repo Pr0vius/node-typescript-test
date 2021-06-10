@@ -17,3 +17,10 @@ First express app in TypeScript
 * /api/post/:id
  1. get method - Get a post by id
  2. delete method - Delete a post by id
+
+### MySQL Post Schema
+  * id : number auto generated
+  * title: string
+  * description: string
+  * imageUrl: string
+  * createdAt : Date auto generated
