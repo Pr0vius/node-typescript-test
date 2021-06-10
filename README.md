@@ -1,4 +1,5 @@
 # node-typescript-test
+First express app in TypeScript
 ### Dependecies
 * express
 * morgan
@@ -8,7 +9,7 @@
 ### Scripts
 * npm run dev : compile & initialize the app with nodemon
 * npm start : initialize the app in production
-* 
+
 ###endpoints
 * /api/post
   get method - Get post list
